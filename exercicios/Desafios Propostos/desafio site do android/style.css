@@ -1,0 +1,108 @@
+@font-face{
+    font-family:'android';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(101 238 101);
+}
+header{
+    background-color: green;
+    color:white;
+    text-align: center;
+    margin: -21px -8px 0px -8px;
+}
+header > h1{
+    padding-top: 20px;
+}
+header > p{
+    font-size: 15px;
+}
+nav{
+    text-align: left;
+}
+nav > a{
+    text-decoration: dashed;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+nav > a:hover{
+    color: black;
+    text-decoration: underline;
+}
+main{
+    
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+section#historia{
+    text-align: justify;
+}
+section#historia > span{
+    color: green;
+}
+section#historia > h1{
+    font-family: 'android';
+    text-align: left;
+    color: green;
+}
+section#a_primeira_versao{
+    text-align:justify;
+}
+section#a_primeira_versao > h2{
+    font-family: 'android';
+    text-align: left;
+    color: green;
+    background-color: rgb(153 230 153);
+}
+section#a_primeira_versao > p > a{
+    color: green;
+}
+section#surge_um_novo_mascote{
+    text-align:justify;
+}
+section#surge_um_novo_mascote > h2{
+    font-family: 'android';
+    text-align: left;
+    color: green;
+    background-color: rgb(153 230 153);
+}
+section#surge_um_novo_mascote > p > a{
+    color: green;
+}
+section#video{
+    background-color: rgb(5 66 5);
+    text-align: center;
+    margin: 0px -10px -10px -10px;
+}
+section#quer_aprender_mais{
+    text-align: justify;
+}
+section#quer_aprender_mais > article{
+    background-color: rgb(180 249 180);
+}
+section#quer_aprender_mais > article > h2{
+    
+    background-color: green;
+    color: white;
+    margin: 20px 0px 10px 0px;
+    height: 35px;
+    width: 799px;
+}
+section#quer_aprender_mais > article > p#paragrafo{
+    margin: 30px 10px 10px 10px;
+
+}
+section#quer_aprender_mais > article > ul#segundo > li{
+    text-align:right;
+    
+    margin: -36px 74px 0px 563px;
+}
+section#quer_aprender_mais > article > p > a{
+    color: green;
+}
